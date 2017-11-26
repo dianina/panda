@@ -1,0 +1,139 @@
+/*
+Margen y padding general
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Estilos body
+*/
+body {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*
+Contenedor Panda 1
+*/
+.container {
+	background-color: #f78e69;
+	padding: 50px 0px 0px 0px;
+}
+/*
+Titulo y subtitulo
+*/
+.titulo, .subtitulo {
+	text-align: right;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	padding: 1px 20px;
+}
+
+/*
+Imagen Panda Mayor
+*/
+.panda {
+	width: 100%;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	padding: 20px 0px 0px 0px;
+}
+
+/*
+Contenedor p "About pandas"
+*/
+.paragraph-container {
+	background-color: #abe188;
+	height: 510px;
+}
+
+
+.panda2-container {
+	background-color: #f78e69;
+	height: 1160px;
+}
+
+/*
+Contenedor texto about
+*/
+.about-text {
+	height: 300px;
+	padding-top: 0px;
+	background-color: #abe188;
+	margin-top: 50px;
+}
+
+/*
+Contenedor del segundo panda
+*/
+.panda2-container {
+	background-color: #f78e69;
+	height: 1300px;
+}
+/*
+Imagen del panda 2
+*/
+.panda2 {
+	width: 100%;
+	padding: 30px 1px 1px 1px;
+	filter: grayscale(100%); 
+	-webkit-filter: grayscale(100%);
+}
+
+/*
+Contenedor de panditas chicos
+*/
+.panditas-container {
+	background-color: #abe188;
+	height: 500px;
+	padding: 100px;
+}
+
+/*
+Titulo h1 de Pictures
+*/
+.pictures {
+	text-align: center;
+	padding: 50px;
+}
+
+/*
+Grupo de panditas
+*/
+.panditas {
+	border: 10px solid #FFFF;
+}
+
+/*
+Estilo adicional col-3
+*/
+.col-3 {
+	float: left;
+}
+
+/*
+Contenedor tercer panda
+*/
+.panda3-container {
+	background-color:#f78e69;
+	height: 850px;
+}
+/*
+Imagen del tercer panda
+*/
+.last-panda {
+	width: 100%;
+	padding: 30px 1px 1px 1px;
+	filter: grayscale(100%); 
+	-webkit-filter: grayscale(100%);
+}
+/*
+Pie de página
+*/
+.pie {
+	text-align: right;
+}
